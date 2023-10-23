@@ -1,3 +1,22 @@
+
+# IDEs
+.idea/
+.vscode/
+
+# Archives
+*.gz
+*.tz
+*.tar
+*.zip
+
+# macOS
+.DS_Store
+
+# Just Ignore
+*.x
+*.ignore
+
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof

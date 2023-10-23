@@ -1,0 +1,355 @@
+\documentclass[12pt]{article}
+
+\DeclareMathSizes{12}{30}{16}{12}
+
+\usepackage{chngcntr}
+\usepackage{amsmath}
+\usepackage[T1]{fontenc}
+\usepackage{mathtools}  % loads »amsmath«
+\usepackage{physics}
+
+\usepackage[colorlinks=true, urlcolor=blue, linkcolor=red]{hyperref}
+%% https://www.baeldung.com/cs/latex-hyperref-url-hyperlinks
+
+\counterwithin*{equation}{section}
+\counterwithin*{equation}{subsection}
+
+%%  Useful LaTeX Links
+%%
+%% https://tex.stackexchange.com/questions/5148/how-can-i-change-the-font-size-in-math-equations
+%% https://en.wikibooks.org/wiki/LaTeX/Mathematics
+%% https://www.overleaf.com/learn/latex/Mathematical_expressions
+%% https://tug.ctan.org/info/short-math-guide/short-math-guide.pdf
+%% https://quickref.me/latex
+%% 
+
+
+\begin{document}
+
+\section*{Introduction}
+
+%% * https://www.businessinsider.com/17-equations-that-changed-the-world-2014-3?op=1
+
+Also see:
+
+\begin{itemize}
+	\item \href{https://www.businessinsider.com/17-equations-that-changed-the-world-2014-3}{businessinsider.com} article about the book
+   	\item A summary of the \href{https://i.insider.com/53289f55eab8ea3d524b5f3a}{equations}
+	\item \url{https://en.wikipedia.org/wiki/In_Pursuit_of_the_Unknown}
+	\item \url{https://en.wikipedia.org/wiki/Ian_Stewart_(mathematician)}
+	\item \url{https://en.wikipedia.org/wiki/Euler_Book_Prize}
+	\item \url{https://github.com/Jonathanseng/17-Equations-that-change-the-world}
+	\item \url{https://github.com/peterlharding/17-equations-that-changed-the-world}
+\end{itemize}
+
+\newpage
+	
+\section{The Square on the Hypotenuse}
+\subsection{Pythagoras' Law}
+
+``The square of the hypotenuse is equal to the sum of the squares of the other two sides.''
+
+\vspace{2em}
+
+\begin{equation*} a^2 = b^2 + c^2  \end{equation*}
+
+\vspace{2em}
+
+\url{https://en.wikipedia.org/wiki/Pythagoras}
+	
+\newpage
+
+
+\section{Shortening the Proceedings}
+	
+Logarithms - John Napier, 1610
+
+\vspace{2em}
+
+\begin{equation*} \log xy = \log x + \log y \end{equation*}
+
+\vspace{2em}
+
+\url{https://en.wikipedia.org/wiki/John_Napier}
+
+\newpage
+
+
+\section{Ghosts of Departed Quantities}
+	
+Calculus - Issac Newton, 1668
+
+\vspace{2em}
+
+\begin{equation*} \frac{df}{dt} =\lim_{h \to 0}  \frac{f(t + h) - f(t)}{h} \end{equation*}
+
+\vspace{2em}
+
+%% https://www.overleaf.com/learn/latex/Integrals%2C_sums_and_limits
+
+\url{https://en.wikipedia.org/wiki/Isaac_Newton}
+
+\newpage
+
+
+\section{The System of the World}
+
+Law of Gravity - Issac Newton, 1687
+
+\vspace{2em}
+
+\begin{equation*}F = G \frac{m_1 m_2}{r^2}\end{equation*}
+
+%% $^{a}\Big/_{b}$
+%% https://tex.stackexchange.com/questions/4624/a-symbol-for-the-quotient-of-two-objects
+
+\vspace{2em}
+
+\url{https://en.wikipedia.org/wiki/Isaac_Newton}
+
+\newpage
+
+
+\section{Portent of the Ideal World}
+
+The Square Root of minus One - Leonhard Euler, 1750
+
+\begin{equation*} i^2 = -1 \end{equation*}
+
+\vspace{2em}
+
+\url{https://en.wikipedia.org/wiki/Leonhard_Euler}
+
+\newpage
+	
+
+\section{Much Ado about Knotting}
+	
+Euyler's Formula for Polyhedra - Leonhard Euler, 1751
+
+\vspace{2em}
+
+\begin{equation*} V -E + F = 2 \end{equation*}
+
+\vspace{2em}
+
+\url{https://en.wikipedia.org/wiki/Leonhard_Euler}
+
+\newpage
+
+
+\section{Patterns of Chance}
+	
+Normal Distribution - Carl Friedrich Gauss, 1810
+
+\vspace{2em}
+
+\begin{equation*}\Phi{(x)} = \frac{1}{\sqrt{2 \pi \sigma}} \ e^\frac{(x - \mu)^2}{2 \sigma^2}\end{equation*}
+
+\vspace{2em}
+
+\url{https://en.wikipedia.org/wiki/Carl_Friedrich_Gauss}
+
+\newpage
+
+
+\section{Good Vibrations}
+	
+Wave Equation - Jean le Rond d'Alembert. 1746
+
+\vspace{2em}
+
+	\begin{equation*}\frac{\partial^2 u}{\partial t^2} = c^2 \  \frac{\partial^2 u}{\partial x^2} \end{equation*}
+
+%% https://www.overleaf.com/learn/latex/Mathematical_expressions
+%% https://www.math-linux.com/latex/faq/latex-faq/article/latex-derivatives-limits-sums-products-and-integrals
+%% https://tex.stackexchange.com/questions/162273/second-derivative
+%% https://www.physicsread.com/latex-derivatives/
+%% https://www.maths.tcd.ie/~dwilkins/LaTeXPrimer/Calculus.html
+
+\vspace{2em}
+
+\url{https://en.wikipedia.org/wiki/Jean_le_Rond_d%27Alembert}
+
+\newpage
+
+
+\section{Ripples and Blips}
+	
+Fourier Transforms - Joseph Fourier, 1822
+
+\vspace{2em}
+
+\begin{equation*} \hat{f}\relax(\xi) = \int_{-\infty}^{\infty} f\relax(x) \  e^{-2\pi i x \xi} dx \end{equation*}
+
+\vspace{2em}
+
+\url{https://en.wikipedia.org/wiki/Joseph_Fourier}
+	
+\newpage
+
+
+\section{The Ascent of Humanity}
+
+Navier-Stokes Equation - Claude-Louis Navier, George Stokes, 1845
+
+%% https://kbwiki.ercoftac.org/w/index.php/Latex_Equations_Cribsheet
+%% https://www.overleaf.com/learn/latex/Brackets_and_Parentheses
+
+\vspace{2em}
+
+\begin{equation*}   \rho \left( \frac{\partial{\mathbf{v}}}{\partial{t}} + \mathbf{v} \cdot \grad{\mathbf{v}} \right) = - \grad{p} + \div \mathbf{T} +  \mathbf{f}  \end{equation*}
+
+or using Einstein notation:
+
+\begin{equation*}   \pdv{(\rho \vec{u})}{t}+\vec{\nabla}\cdot\rho\vec{u}\otimes\vec{u} = -\vec{\nabla p}+\vec{\nabla}\cdot\Bar{\Bar{\tau}}+\rho\vec{f}  \end{equation*}
+
+\begin{itemize}
+	\item \url{https://en.wikipedia.org/wiki/Claude-Louis_Navier}
+	\item \url{https://en.wikipedia.org/wiki/Sir_George_Stokes,_1st_Baronet}
+	\item \url{https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_equations}
+\end{itemize}
+
+\newpage
+
+
+\section{Waves in the Ether}
+	
+Maxwell's Equations - James Clerk Maxwell, 1865
+
+\vspace{2em}
+
+\begin{equation*}
+	\begin{aligned}
+		\frac{\partial\mathcal{D}}{\partial t} \quad & = \quad \nabla\times\mathcal{H},   & \quad \text{(Faraday's Law)} \\[5pt]
+		\frac{\partial\mathcal{B}}{\partial t} \quad & = \quad -\nabla\times\mathcal{E},  & \quad \text{(Ampère's Law)}   \\[5pt]
+		\nabla\cdot\mathcal{B}                 \quad & = \quad 0,                         & \quad \text{(Gauss's Law)}   \\[5pt]
+		\nabla\cdot\mathcal{D}                 \quad & = \quad 0.                         & \quad \text{(Colomb's Law)}
+	\end{aligned}
+\end{equation*}
+
+or
+
+\begin{equation*}
+	\begin{aligned}
+\div \mathbf{E} = 0 \\
+\div \mathbf{H} = 0 \\
+\curl{\mathbf{E}} = - \frac{1}{c} \frac{\partial \mathbf{H}}{\partial t} \\
+\curl{\mathbf{H}} = - \frac{1}{c} \frac{\partial \mathbf{E}}{\partial t} \\
+	\end{aligned}
+\end{equation*}
+
+where $ \mathbf{E}$ is the Electric Field and $\mathbf{H}$ is the magnetic field.
+
+\vspace{2em}
+
+\url{https://en.wikipedia.org/wiki/James_Clerk_Maxwell}
+
+\newpage
+
+
+\section{Law and Disorder}
+
+Second Law of Thermodynamics - Ludwig Boltzmann, 1874
+
+\vspace{2em}
+
+\begin{equation*}  d \mathbf{S} <= 0  \end{equation*}
+
+\vspace{2em}
+
+\url{https://en.wikipedia.org/wiki/Ludwig_Boltzmann}
+
+\newpage
+
+
+\section{One Thing is Absolute}
+
+Relativity - Albert Einsten, 1905
+
+\vspace{2em}
+
+\begin{equation*}E=mc^2 \end{equation*}
+
+\vspace{2em}
+
+\url{https://en.wikipedia.org/wiki/Albert_Einstein}
+
+\newpage
+
+
+\section{Quantum Weirdness}
+
+Schrodinger's Equation - Edwin  Schrodinger, 1927
+
+\vspace{2em}
+
+\begin{equation*}   i \hbar \  \frac{\partial}{\partial{t}} \  \Phi = \hat{H} \Phi \end{equation*}
+
+\vspace{2em}
+
+\url{https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger}
+
+\newpage
+
+
+\section{Codes, Communications and Computers}
+
+Information Theory - Claude Shannon, 1949
+
+\vspace{2em}
+
+\begin{equation*} H = \sum_{x} p(x) log_{2}\ p(x) \end{equation*}
+
+\vspace{2em}
+
+\url{https://en.wikipedia.org/wiki/Claude_Shannon}
+
+\newpage
+
+
+\section{The Imbalance of Nature}
+
+Chaos Throry Theory - Robert May, 1975
+
+\vspace{2em}
+
+\begin{equation*} x_{t+1}  = kx_t ( 1 - x_t) \end{equation*}
+
+\vspace{2em}
+
+\url{}
+
+\newpage
+
+
+
+\section{The Midas Formula}
+				
+The Black-Scoles Equation - F. Black \& M. Scholes - 1990
+
+\vspace{2em}
+
+\begin{equation*}  \frac{1}{2} \sigma^2 S^2 \frac{\partial_2V}{\partial{S_2}} + r S \frac{\partial{V}}{\partial{S}} +  \frac{\partial{V}}{\partial{t}} - r V = 0 \end{equation*}
+
+\vspace{2em}
+
+\url{https://en.wikipedia.org/wiki/Black%E2%80%93Scholes_model}
+
+\newpage 
+	
+
+
+	
+\section*{Extras}
+
+%% https://www.overleaf.com/learn/latex/Fractions_and_Binomials
+
+
+The binomial coefficient, \(\binom{n}{k}\), is defined by the expression:
+
+\[
+\binom{n}{k} = \frac{n!}{k!(n-k)!}
+\]
+	
+\end{document}
